@@ -2,6 +2,7 @@
 """
 Pagination
 """
+import csv
 from typing import List, Tuple
 
 
@@ -31,7 +32,7 @@ class Server:
         """
         Cached dataset
         """
-        if self._dataset is None:
+        if self.__dataset is None:
             with open(self.file_data) as f:
                 reader = csv.reader(f)
                 dataset = [row for row in reader]
