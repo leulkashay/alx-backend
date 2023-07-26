@@ -9,7 +9,7 @@ class LRUCache(BaseCaching):
     """
     Inherits from basecaching
     """
-    def __init___(self):
+    def __init__(self):
         """
         initilaze LRU caching
         """
