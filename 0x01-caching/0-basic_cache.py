@@ -5,7 +5,7 @@ basic caching class
 from base_caching import BaseCaching
 
 
-class base_caching(BaseCaching):
+class BasicCahe(BaseCaching):
     """
     inherits from base_caching system
     """
