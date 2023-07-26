@@ -21,7 +21,7 @@ class LRUCache(BaseCaching):
         Assiging key and items
         """
         if len(self.cache_data) == self.MAX_ITEMS and key not in self.queue:
-            discard = self.queue.pop()
+            discard = self.queue.pop(0)
             del self.cache_data[discard]
             print("DiSCARD: {}".format(discard))
 
