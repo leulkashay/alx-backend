@@ -5,7 +5,7 @@ LRU caching
 from base_caching import BaseCaching
 
 
-class LRUCaache(BaseCaching):
+class LRUCache(BaseCaching):
     """
     Inherits from basecaching
     """
